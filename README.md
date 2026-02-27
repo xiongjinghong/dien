@@ -49,3 +49,4 @@ The model blelow had been supported:
 - DIN 论文中 electronics 数据介绍 和 Amazon product data 中说明 5-score 数据可以对应上
 - 1086120/128 = 8500 左右为一个epoch
 - 线上服务优化： 38.2 ms to 6.6 ms and the QPS (Query Per Second) capacity of each worker can be improved to 360.
+- issue： https://github.com/zhougr1993/DeepInterestNetwork/issues/66， 待确认
