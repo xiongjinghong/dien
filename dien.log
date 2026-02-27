@@ -1,0 +1,757 @@
+Using TensorFlow backend.
+2026-02-25 23:24:30.134699: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+test_auc: 0.5034 ---- test_loss: 1.7890 ---- test_accuracy: 0.4971 ---- test_aux_loss: 1.5799
+iter: 100 ----> train_loss: 1.6356 ---- train_accuracy: 0.5185 ---- tran_aux_loss: 1.2871
+test_auc: 0.5772 ----test_loss: 1.5919 ---- test_accuracy: 0.5411 ---- test_aux_loss: 1.3859
+save model iter: 100
+iter: 200 ----> train_loss: 1.6247 ---- train_accuracy: 0.5648 ---- tran_aux_loss: 1.2870
+test_auc: 0.6062 ----test_loss: 1.6249 ---- test_accuracy: 0.5732 ---- test_aux_loss: 1.3844
+save model iter: 200
+iter: 300 ----> train_loss: 1.6154 ---- train_accuracy: 0.5720 ---- tran_aux_loss: 1.2784
+test_auc: 0.6108 ----test_loss: 1.5969 ---- test_accuracy: 0.5756 ---- test_aux_loss: 1.3818
+save model iter: 300
+iter: 400 ----> train_loss: 1.6092 ---- train_accuracy: 0.5886 ---- tran_aux_loss: 1.2770
+test_auc: 0.6257 ----test_loss: 1.5871 ---- test_accuracy: 0.5847 ---- test_aux_loss: 1.3839
+save model iter: 400
+iter: 500 ----> train_loss: 1.6157 ---- train_accuracy: 0.5903 ---- tran_aux_loss: 1.2859
+test_auc: 0.6359 ----test_loss: 1.5794 ---- test_accuracy: 0.5941 ---- test_aux_loss: 1.3796
+save model iter: 500
+iter: 600 ----> train_loss: 1.5993 ---- train_accuracy: 0.5980 ---- tran_aux_loss: 1.2702
+test_auc: 0.6423 ----test_loss: 1.5771 ---- test_accuracy: 0.5989 ---- test_aux_loss: 1.3792
+save model iter: 600
+iter: 700 ----> train_loss: 1.5960 ---- train_accuracy: 0.5984 ---- tran_aux_loss: 1.2691
+test_auc: 0.6476 ----test_loss: 1.5719 ---- test_accuracy: 0.6038 ---- test_aux_loss: 1.3821
+save model iter: 700
+iter: 800 ----> train_loss: 1.6028 ---- train_accuracy: 0.6123 ---- tran_aux_loss: 1.2790
+test_auc: 0.6502 ----test_loss: 1.5765 ---- test_accuracy: 0.6036 ---- test_aux_loss: 1.3749
+save model iter: 800
+iter: 900 ----> train_loss: 1.6046 ---- train_accuracy: 0.6116 ---- tran_aux_loss: 1.2813
+test_auc: 0.6603 ----test_loss: 1.5916 ---- test_accuracy: 0.6125 ---- test_aux_loss: 1.3721
+save model iter: 900
+iter: 1000 ----> train_loss: 1.5905 ---- train_accuracy: 0.6188 ---- tran_aux_loss: 1.2705
+test_auc: 0.6665 ----test_loss: 1.5665 ---- test_accuracy: 0.6168 ---- test_aux_loss: 1.3745
+save model iter: 1000
+iter: 1100 ----> train_loss: 1.5827 ---- train_accuracy: 0.6267 ---- tran_aux_loss: 1.2662
+test_auc: 0.6698 ----test_loss: 1.5627 ---- test_accuracy: 0.6180 ---- test_aux_loss: 1.3494
+save model iter: 1100
+iter: 1200 ----> train_loss: 1.5820 ---- train_accuracy: 0.6294 ---- tran_aux_loss: 1.2642
+test_auc: 0.6837 ----test_loss: 1.5332 ---- test_accuracy: 0.6285 ---- test_aux_loss: 1.3459
+save model iter: 1200
+iter: 1300 ----> train_loss: 1.5459 ---- train_accuracy: 0.6402 ---- tran_aux_loss: 1.2344
+test_auc: 0.6898 ----test_loss: 1.5325 ---- test_accuracy: 0.6341 ---- test_aux_loss: 1.3415
+save model iter: 1300
+iter: 1400 ----> train_loss: 1.5385 ---- train_accuracy: 0.6384 ---- tran_aux_loss: 1.2247
+test_auc: 0.6940 ----test_loss: 1.5237 ---- test_accuracy: 0.6375 ---- test_aux_loss: 1.3335
+save model iter: 1400
+iter: 1500 ----> train_loss: 1.5286 ---- train_accuracy: 0.6408 ---- tran_aux_loss: 1.2174
+test_auc: 0.6965 ----test_loss: 1.4998 ---- test_accuracy: 0.6393 ---- test_aux_loss: 1.2936
+save model iter: 1500
+iter: 1600 ----> train_loss: 1.5042 ---- train_accuracy: 0.6448 ---- tran_aux_loss: 1.1949
+test_auc: 0.7062 ----test_loss: 1.4924 ---- test_accuracy: 0.6473 ---- test_aux_loss: 1.2734
+save model iter: 1600
+iter: 1700 ----> train_loss: 1.4921 ---- train_accuracy: 0.6505 ---- tran_aux_loss: 1.1858
+test_auc: 0.7128 ----test_loss: 1.4754 ---- test_accuracy: 0.6535 ---- test_aux_loss: 1.2807
+save model iter: 1700
+iter: 1800 ----> train_loss: 1.4746 ---- train_accuracy: 0.6587 ---- tran_aux_loss: 1.1729
+test_auc: 0.7191 ----test_loss: 1.4737 ---- test_accuracy: 0.6593 ---- test_aux_loss: 1.3060
+save model iter: 1800
+iter: 1900 ----> train_loss: 1.4650 ---- train_accuracy: 0.6611 ---- tran_aux_loss: 1.1645
+test_auc: 0.7256 ----test_loss: 1.4548 ---- test_accuracy: 0.6630 ---- test_aux_loss: 1.2500
+save model iter: 1900
+iter: 2000 ----> train_loss: 1.4500 ---- train_accuracy: 0.6726 ---- tran_aux_loss: 1.1542
+test_auc: 0.7306 ----test_loss: 1.4431 ---- test_accuracy: 0.6661 ---- test_aux_loss: 1.2877
+save model iter: 2000
+iter: 2100 ----> train_loss: 1.4491 ---- train_accuracy: 0.6695 ---- tran_aux_loss: 1.1525
+test_auc: 0.7335 ----test_loss: 1.4352 ---- test_accuracy: 0.6687 ---- test_aux_loss: 1.2438
+save model iter: 2100
+iter: 2200 ----> train_loss: 1.4431 ---- train_accuracy: 0.6825 ---- tran_aux_loss: 1.1512
+test_auc: 0.7388 ----test_loss: 1.4270 ---- test_accuracy: 0.6723 ---- test_aux_loss: 1.2735
+save model iter: 2200
+iter: 2300 ----> train_loss: 1.4415 ---- train_accuracy: 0.6763 ---- tran_aux_loss: 1.1506
+test_auc: 0.7413 ----test_loss: 1.4265 ---- test_accuracy: 0.6760 ---- test_aux_loss: 1.2346
+save model iter: 2300
+iter: 2400 ----> train_loss: 1.4266 ---- train_accuracy: 0.6854 ---- tran_aux_loss: 1.1383
+test_auc: 0.7423 ----test_loss: 1.4283 ---- test_accuracy: 0.6760 ---- test_aux_loss: 1.2712
+save model iter: 2400
+iter: 2500 ----> train_loss: 1.4143 ---- train_accuracy: 0.6862 ---- tran_aux_loss: 1.1291
+test_auc: 0.7460 ----test_loss: 1.4221 ---- test_accuracy: 0.6806 ---- test_aux_loss: 1.2294
+save model iter: 2500
+iter: 2600 ----> train_loss: 1.4089 ---- train_accuracy: 0.6879 ---- tran_aux_loss: 1.1224
+test_auc: 0.7500 ----test_loss: 1.4199 ---- test_accuracy: 0.6836 ---- test_aux_loss: 1.2654
+save model iter: 2600
+iter: 2700 ----> train_loss: 1.4088 ---- train_accuracy: 0.6888 ---- tran_aux_loss: 1.1222
+test_auc: 0.7527 ----test_loss: 1.3996 ---- test_accuracy: 0.6844 ---- test_aux_loss: 1.2361
+save model iter: 2700
+iter: 2800 ----> train_loss: 1.4035 ---- train_accuracy: 0.6877 ---- tran_aux_loss: 1.1172
+test_auc: 0.7555 ----test_loss: 1.4011 ---- test_accuracy: 0.6868 ---- test_aux_loss: 1.2264
+save model iter: 2800
+iter: 2900 ----> train_loss: 1.3990 ---- train_accuracy: 0.6861 ---- tran_aux_loss: 1.1129
+test_auc: 0.7587 ----test_loss: 1.3824 ---- test_accuracy: 0.6883 ---- test_aux_loss: 1.2181
+save model iter: 2900
+iter: 3000 ----> train_loss: 1.3922 ---- train_accuracy: 0.6950 ---- tran_aux_loss: 1.1096
+test_auc: 0.7616 ----test_loss: 1.3721 ---- test_accuracy: 0.6897 ---- test_aux_loss: 1.2320
+save model iter: 3000
+iter: 3100 ----> train_loss: 1.3742 ---- train_accuracy: 0.6983 ---- tran_aux_loss: 1.0946
+test_auc: 0.7622 ----test_loss: 1.3833 ---- test_accuracy: 0.6928 ---- test_aux_loss: 1.2240
+save model iter: 3100
+iter: 3200 ----> train_loss: 1.3634 ---- train_accuracy: 0.7049 ---- tran_aux_loss: 1.0863
+test_auc: 0.7646 ----test_loss: 1.3667 ---- test_accuracy: 0.6934 ---- test_aux_loss: 1.2310
+save model iter: 3200
+iter: 3300 ----> train_loss: 1.3654 ---- train_accuracy: 0.6993 ---- tran_aux_loss: 1.0873
+test_auc: 0.7633 ----test_loss: 1.3569 ---- test_accuracy: 0.6932 ---- test_aux_loss: 1.2717
+save model iter: 3300
+iter: 3400 ----> train_loss: 1.3652 ---- train_accuracy: 0.7039 ---- tran_aux_loss: 1.0858
+test_auc: 0.7695 ----test_loss: 1.3525 ---- test_accuracy: 0.6982 ---- test_aux_loss: 1.2203
+save model iter: 3400
+iter: 3500 ----> train_loss: 1.3611 ---- train_accuracy: 0.6995 ---- tran_aux_loss: 1.0816
+test_auc: 0.7712 ----test_loss: 1.3435 ---- test_accuracy: 0.6992 ---- test_aux_loss: 1.1974
+save model iter: 3500
+iter: 3600 ----> train_loss: 1.3529 ---- train_accuracy: 0.7034 ---- tran_aux_loss: 1.0753
+test_auc: 0.7761 ----test_loss: 1.3471 ---- test_accuracy: 0.7048 ---- test_aux_loss: 1.2287
+save model iter: 3600
+iter: 3700 ----> train_loss: 1.3414 ---- train_accuracy: 0.7064 ---- tran_aux_loss: 1.0676
+test_auc: 0.7784 ----test_loss: 1.3401 ---- test_accuracy: 0.7059 ---- test_aux_loss: 1.2452
+save model iter: 3700
+iter: 3800 ----> train_loss: 1.3387 ---- train_accuracy: 0.7095 ---- tran_aux_loss: 1.0632
+test_auc: 0.7845 ----test_loss: 1.3261 ---- test_accuracy: 0.7105 ---- test_aux_loss: 1.1863
+save model iter: 3800
+iter: 3900 ----> train_loss: 1.3324 ---- train_accuracy: 0.7223 ---- tran_aux_loss: 1.0605
+test_auc: 0.7807 ----test_loss: 1.3287 ---- test_accuracy: 0.7074 ---- test_aux_loss: 1.1805
+save model iter: 3900
+iter: 4000 ----> train_loss: 1.3265 ---- train_accuracy: 0.7195 ---- tran_aux_loss: 1.0571
+test_auc: 0.7835 ----test_loss: 1.3165 ---- test_accuracy: 0.7097 ---- test_aux_loss: 1.2120
+save model iter: 4000
+iter: 4100 ----> train_loss: 1.3310 ---- train_accuracy: 0.7177 ---- tran_aux_loss: 1.0625
+test_auc: 0.7859 ----test_loss: 1.3205 ---- test_accuracy: 0.7144 ---- test_aux_loss: 1.1958
+save model iter: 4100
+iter: 4200 ----> train_loss: 1.3212 ---- train_accuracy: 0.7237 ---- tran_aux_loss: 1.0551
+test_auc: 0.7902 ----test_loss: 1.3024 ---- test_accuracy: 0.7158 ---- test_aux_loss: 1.1669
+save model iter: 4200
+iter: 4300 ----> train_loss: 1.3104 ---- train_accuracy: 0.7216 ---- tran_aux_loss: 1.0451
+test_auc: 0.7885 ----test_loss: 1.3107 ---- test_accuracy: 0.7140 ---- test_aux_loss: 1.1783
+save model iter: 4300
+iter: 4400 ----> train_loss: 1.3150 ---- train_accuracy: 0.7202 ---- tran_aux_loss: 1.0465
+test_auc: 0.7915 ----test_loss: 1.2974 ---- test_accuracy: 0.7170 ---- test_aux_loss: 1.1874
+save model iter: 4400
+iter: 4500 ----> train_loss: 1.3025 ---- train_accuracy: 0.7307 ---- tran_aux_loss: 1.0427
+test_auc: 0.7954 ----test_loss: 1.3019 ---- test_accuracy: 0.7202 ---- test_aux_loss: 1.2062
+save model iter: 4500
+iter: 4600 ----> train_loss: 1.3018 ---- train_accuracy: 0.7291 ---- tran_aux_loss: 1.0389
+test_auc: 0.7953 ----test_loss: 1.2910 ---- test_accuracy: 0.7197 ---- test_aux_loss: 1.1941
+save model iter: 4600
+iter: 4700 ----> train_loss: 1.3017 ---- train_accuracy: 0.7185 ---- tran_aux_loss: 1.0322
+test_auc: 0.7949 ----test_loss: 1.2928 ---- test_accuracy: 0.7223 ---- test_aux_loss: 1.2015
+save model iter: 4700
+iter: 4800 ----> train_loss: 1.3005 ---- train_accuracy: 0.7245 ---- tran_aux_loss: 1.0342
+test_auc: 0.7981 ----test_loss: 1.2858 ---- test_accuracy: 0.7237 ---- test_aux_loss: 1.1771
+save model iter: 4800
+iter: 4900 ----> train_loss: 1.2919 ---- train_accuracy: 0.7282 ---- tran_aux_loss: 1.0286
+test_auc: 0.7986 ----test_loss: 1.2868 ---- test_accuracy: 0.7249 ---- test_aux_loss: 1.2092
+save model iter: 4900
+iter: 5000 ----> train_loss: 1.2858 ---- train_accuracy: 0.7294 ---- tran_aux_loss: 1.0237
+test_auc: 0.8037 ----test_loss: 1.2737 ---- test_accuracy: 0.7254 ---- test_aux_loss: 1.1442
+save model iter: 5000
+iter: 5100 ----> train_loss: 1.2786 ---- train_accuracy: 0.7340 ---- tran_aux_loss: 1.0169
+test_auc: 0.8061 ----test_loss: 1.2665 ---- test_accuracy: 0.7289 ---- test_aux_loss: 1.1656
+save model iter: 5100
+iter: 5200 ----> train_loss: 1.2771 ---- train_accuracy: 0.7360 ---- tran_aux_loss: 1.0187
+test_auc: 0.8004 ----test_loss: 1.2865 ---- test_accuracy: 0.7266 ---- test_aux_loss: 1.2030
+save model iter: 5200
+iter: 5300 ----> train_loss: 1.2742 ---- train_accuracy: 0.7381 ---- tran_aux_loss: 1.0152
+test_auc: 0.8040 ----test_loss: 1.2757 ---- test_accuracy: 0.7280 ---- test_aux_loss: 1.1828
+save model iter: 5300
+iter: 5400 ----> train_loss: 1.2707 ---- train_accuracy: 0.7404 ---- tran_aux_loss: 1.0169
+test_auc: 0.8077 ----test_loss: 1.2696 ---- test_accuracy: 0.7310 ---- test_aux_loss: 1.1371
+save model iter: 5400
+iter: 5500 ----> train_loss: 1.2638 ---- train_accuracy: 0.7345 ---- tran_aux_loss: 1.0035
+test_auc: 0.8064 ----test_loss: 1.2629 ---- test_accuracy: 0.7303 ---- test_aux_loss: 1.1451
+save model iter: 5500
+iter: 5600 ----> train_loss: 1.2692 ---- train_accuracy: 0.7349 ---- tran_aux_loss: 1.0097
+test_auc: 0.8083 ----test_loss: 1.2648 ---- test_accuracy: 0.7334 ---- test_aux_loss: 1.1681
+save model iter: 5600
+iter: 5700 ----> train_loss: 1.2635 ---- train_accuracy: 0.7377 ---- tran_aux_loss: 1.0066
+test_auc: 0.8092 ----test_loss: 1.2646 ---- test_accuracy: 0.7341 ---- test_aux_loss: 1.1727
+save model iter: 5700
+iter: 5800 ----> train_loss: 1.2590 ---- train_accuracy: 0.7473 ---- tran_aux_loss: 1.0089
+test_auc: 0.8110 ----test_loss: 1.2576 ---- test_accuracy: 0.7357 ---- test_aux_loss: 1.1772
+save model iter: 5800
+iter: 5900 ----> train_loss: 1.2637 ---- train_accuracy: 0.7382 ---- tran_aux_loss: 1.0065
+test_auc: 0.8100 ----test_loss: 1.2614 ---- test_accuracy: 0.7355 ---- test_aux_loss: 1.1389
+save model iter: 5900
+iter: 6000 ----> train_loss: 1.2546 ---- train_accuracy: 0.7439 ---- tran_aux_loss: 1.0018
+test_auc: 0.8161 ----test_loss: 1.2466 ---- test_accuracy: 0.7403 ---- test_aux_loss: 1.1796
+save model iter: 6000
+iter: 6100 ----> train_loss: 1.2425 ---- train_accuracy: 0.7463 ---- tran_aux_loss: 0.9901
+test_auc: 0.8181 ----test_loss: 1.2414 ---- test_accuracy: 0.7411 ---- test_aux_loss: 1.1795
+save model iter: 6100
+iter: 6200 ----> train_loss: 1.2444 ---- train_accuracy: 0.7491 ---- tran_aux_loss: 0.9931
+test_auc: 0.8156 ----test_loss: 1.2492 ---- test_accuracy: 0.7406 ---- test_aux_loss: 1.1634
+save model iter: 6200
+iter: 6300 ----> train_loss: 1.2461 ---- train_accuracy: 0.7431 ---- tran_aux_loss: 0.9922
+test_auc: 0.8150 ----test_loss: 1.2498 ---- test_accuracy: 0.7413 ---- test_aux_loss: 1.1970
+save model iter: 6300
+iter: 6400 ----> train_loss: 1.2430 ---- train_accuracy: 0.7404 ---- tran_aux_loss: 0.9893
+test_auc: 0.8151 ----test_loss: 1.2508 ---- test_accuracy: 0.7399 ---- test_aux_loss: 1.1505
+save model iter: 6400
+iter: 6500 ----> train_loss: 1.2426 ---- train_accuracy: 0.7420 ---- tran_aux_loss: 0.9883
+test_auc: 0.8117 ----test_loss: 1.2516 ---- test_accuracy: 0.7402 ---- test_aux_loss: 1.1962
+save model iter: 6500
+iter: 6600 ----> train_loss: 1.2370 ---- train_accuracy: 0.7451 ---- tran_aux_loss: 0.9854
+test_auc: 0.8230 ----test_loss: 1.2216 ---- test_accuracy: 0.7459 ---- test_aux_loss: 1.1402
+save model iter: 6600
+iter: 6700 ----> train_loss: 1.2239 ---- train_accuracy: 0.7487 ---- tran_aux_loss: 0.9738
+test_auc: 0.8219 ----test_loss: 1.2253 ---- test_accuracy: 0.7453 ---- test_aux_loss: 1.1182
+save model iter: 6700
+iter: 6800 ----> train_loss: 1.2238 ---- train_accuracy: 0.7536 ---- tran_aux_loss: 0.9771
+test_auc: 0.8175 ----test_loss: 1.2443 ---- test_accuracy: 0.7436 ---- test_aux_loss: 1.1987
+save model iter: 6800
+iter: 6900 ----> train_loss: 1.2112 ---- train_accuracy: 0.7501 ---- tran_aux_loss: 0.9673
+test_auc: 0.8234 ----test_loss: 1.2205 ---- test_accuracy: 0.7472 ---- test_aux_loss: 1.1755
+save model iter: 6900
+iter: 7000 ----> train_loss: 1.2181 ---- train_accuracy: 0.7531 ---- tran_aux_loss: 0.9723
+test_auc: 0.8245 ----test_loss: 1.2167 ---- test_accuracy: 0.7484 ---- test_aux_loss: 1.1380
+save model iter: 7000
+iter: 7100 ----> train_loss: 1.2235 ---- train_accuracy: 0.7538 ---- tran_aux_loss: 0.9762
+test_auc: 0.8245 ----test_loss: 1.2172 ---- test_accuracy: 0.7481 ---- test_aux_loss: 1.1630
+save model iter: 7100
+iter: 7200 ----> train_loss: 1.2099 ---- train_accuracy: 0.7576 ---- tran_aux_loss: 0.9655
+test_auc: 0.8270 ----test_loss: 1.2128 ---- test_accuracy: 0.7503 ---- test_aux_loss: 1.1565
+save model iter: 7200
+iter: 7300 ----> train_loss: 1.2134 ---- train_accuracy: 0.7517 ---- tran_aux_loss: 0.9656
+test_auc: 0.8305 ----test_loss: 1.2014 ---- test_accuracy: 0.7518 ---- test_aux_loss: 1.1013
+save model iter: 7300
+iter: 7400 ----> train_loss: 1.2067 ---- train_accuracy: 0.7541 ---- tran_aux_loss: 0.9620
+test_auc: 0.8263 ----test_loss: 1.2167 ---- test_accuracy: 0.7514 ---- test_aux_loss: 1.1180
+save model iter: 7400
+iter: 7500 ----> train_loss: 1.2013 ---- train_accuracy: 0.7572 ---- tran_aux_loss: 0.9565
+test_auc: 0.8286 ----test_loss: 1.2076 ---- test_accuracy: 0.7528 ---- test_aux_loss: 1.1230
+save model iter: 7500
+iter: 7600 ----> train_loss: 1.2146 ---- train_accuracy: 0.7543 ---- tran_aux_loss: 0.9685
+test_auc: 0.8336 ----test_loss: 1.1973 ---- test_accuracy: 0.7551 ---- test_aux_loss: 1.1593
+save model iter: 7600
+iter: 7700 ----> train_loss: 1.1980 ---- train_accuracy: 0.7581 ---- tran_aux_loss: 0.9566
+test_auc: 0.8347 ----test_loss: 1.1902 ---- test_accuracy: 0.7554 ---- test_aux_loss: 1.0879
+save model iter: 7700
+iter: 7800 ----> train_loss: 1.1979 ---- train_accuracy: 0.7548 ---- tran_aux_loss: 0.9552
+test_auc: 0.8326 ----test_loss: 1.1947 ---- test_accuracy: 0.7541 ---- test_aux_loss: 1.0935
+save model iter: 7800
+iter: 7900 ----> train_loss: 1.1926 ---- train_accuracy: 0.7670 ---- tran_aux_loss: 0.9543
+test_auc: 0.8332 ----test_loss: 1.1940 ---- test_accuracy: 0.7554 ---- test_aux_loss: 1.1321
+save model iter: 7900
+iter: 8000 ----> train_loss: 1.1963 ---- train_accuracy: 0.7578 ---- tran_aux_loss: 0.9515
+test_auc: 0.8302 ----test_loss: 1.1940 ---- test_accuracy: 0.7548 ---- test_aux_loss: 1.1475
+save model iter: 8000
+iter: 8100 ----> train_loss: 1.1884 ---- train_accuracy: 0.7652 ---- tran_aux_loss: 0.9501
+test_auc: 0.8303 ----test_loss: 1.2006 ---- test_accuracy: 0.7541 ---- test_aux_loss: 1.0905
+save model iter: 8100
+iter: 8200 ----> train_loss: 1.1902 ---- train_accuracy: 0.7688 ---- tran_aux_loss: 0.9498
+test_auc: 0.8330 ----test_loss: 1.1943 ---- test_accuracy: 0.7579 ---- test_aux_loss: 1.1133
+save model iter: 8200
+iter: 8300 ----> train_loss: 1.1875 ---- train_accuracy: 0.7610 ---- tran_aux_loss: 0.9461
+test_auc: 0.8372 ----test_loss: 1.1880 ---- test_accuracy: 0.7604 ---- test_aux_loss: 1.0447
+save model iter: 8300
+iter: 8400 ----> train_loss: 1.1805 ---- train_accuracy: 0.7652 ---- tran_aux_loss: 0.9402
+test_auc: 0.8367 ----test_loss: 1.1842 ---- test_accuracy: 0.7595 ---- test_aux_loss: 1.0962
+save model iter: 8400
+iter: 8500 ----> train_loss: 0.1598 ---- train_accuracy: 0.1082 ---- tran_aux_loss: 0.1265
+test_auc: 0.8402 ----test_loss: 1.1756 ---- test_accuracy: 0.7624 ---- test_aux_loss: 1.0970
+save model iter: 8500
+iter: 8600 ----> train_loss: 1.1623 ---- train_accuracy: 0.7763 ---- tran_aux_loss: 0.9292
+test_auc: 0.8407 ----test_loss: 1.1773 ---- test_accuracy: 0.7629 ---- test_aux_loss: 1.0766
+save model iter: 8600
+iter: 8700 ----> train_loss: 1.1439 ---- train_accuracy: 0.7945 ---- tran_aux_loss: 0.9253
+test_auc: 0.8333 ----test_loss: 1.1889 ---- test_accuracy: 0.7547 ---- test_aux_loss: 1.0706
+save model iter: 8700
+iter: 8800 ----> train_loss: 1.1179 ---- train_accuracy: 0.8133 ---- tran_aux_loss: 0.9129
+test_auc: 0.8163 ----test_loss: 1.2155 ---- test_accuracy: 0.7378 ---- test_aux_loss: 1.0992
+save model iter: 8800
+iter: 8900 ----> train_loss: 1.0973 ---- train_accuracy: 0.8341 ---- tran_aux_loss: 0.9097
+test_auc: 0.8160 ----test_loss: 1.2181 ---- test_accuracy: 0.7377 ---- test_aux_loss: 1.0869
+save model iter: 8900
+iter: 9000 ----> train_loss: 1.1015 ---- train_accuracy: 0.8243 ---- tran_aux_loss: 0.9081
+test_auc: 0.8156 ----test_loss: 1.2332 ---- test_accuracy: 0.7390 ---- test_aux_loss: 1.0896
+save model iter: 9000
+iter: 9100 ----> train_loss: 1.0950 ---- train_accuracy: 0.8137 ---- tran_aux_loss: 0.8935
+test_auc: 0.8217 ----test_loss: 1.2193 ---- test_accuracy: 0.7436 ---- test_aux_loss: 1.0895
+save model iter: 9100
+iter: 9200 ----> train_loss: 1.0965 ---- train_accuracy: 0.8163 ---- tran_aux_loss: 0.8960
+test_auc: 0.8248 ----test_loss: 1.2057 ---- test_accuracy: 0.7456 ---- test_aux_loss: 1.1238
+save model iter: 9200
+iter: 9300 ----> train_loss: 1.0998 ---- train_accuracy: 0.8259 ---- tran_aux_loss: 0.9082
+test_auc: 0.8254 ----test_loss: 1.2076 ---- test_accuracy: 0.7462 ---- test_aux_loss: 1.1132
+save model iter: 9300
+iter: 9400 ----> train_loss: 1.0818 ---- train_accuracy: 0.8502 ---- tran_aux_loss: 0.9086
+test_auc: 0.8231 ----test_loss: 1.2194 ---- test_accuracy: 0.7429 ---- test_aux_loss: 1.1101
+save model iter: 9400
+iter: 9500 ----> train_loss: 1.0676 ---- train_accuracy: 0.8455 ---- tran_aux_loss: 0.8927
+test_auc: 0.8189 ----test_loss: 1.2181 ---- test_accuracy: 0.7416 ---- test_aux_loss: 1.0619
+save model iter: 9500
+iter: 9600 ----> train_loss: 1.0735 ---- train_accuracy: 0.8448 ---- tran_aux_loss: 0.9003
+test_auc: 0.8207 ----test_loss: 1.2120 ---- test_accuracy: 0.7413 ---- test_aux_loss: 1.0757
+save model iter: 9600
+iter: 9700 ----> train_loss: 1.0799 ---- train_accuracy: 0.8463 ---- tran_aux_loss: 0.9063
+test_auc: 0.8197 ----test_loss: 1.2071 ---- test_accuracy: 0.7395 ---- test_aux_loss: 1.1006
+save model iter: 9700
+iter: 9800 ----> train_loss: 1.0588 ---- train_accuracy: 0.8582 ---- tran_aux_loss: 0.8971
+test_auc: 0.8187 ----test_loss: 1.2174 ---- test_accuracy: 0.7395 ---- test_aux_loss: 1.0589
+save model iter: 9800
+iter: 9900 ----> train_loss: 1.0542 ---- train_accuracy: 0.8593 ---- tran_aux_loss: 0.8936
+test_auc: 0.8117 ----test_loss: 1.2348 ---- test_accuracy: 0.7326 ---- test_aux_loss: 1.0810
+save model iter: 9900
+iter: 10000 ----> train_loss: 1.0454 ---- train_accuracy: 0.8608 ---- tran_aux_loss: 0.8873
+test_auc: 0.8212 ----test_loss: 1.2090 ---- test_accuracy: 0.7427 ---- test_aux_loss: 1.1088
+save model iter: 10000
+iter: 10100 ----> train_loss: 1.0370 ---- train_accuracy: 0.8657 ---- tran_aux_loss: 0.8845
+test_auc: 0.8193 ----test_loss: 1.2264 ---- test_accuracy: 0.7401 ---- test_aux_loss: 1.0892
+save model iter: 10100
+iter: 10200 ----> train_loss: 1.0360 ---- train_accuracy: 0.8626 ---- tran_aux_loss: 0.8801
+test_auc: 0.8195 ----test_loss: 1.2241 ---- test_accuracy: 0.7401 ---- test_aux_loss: 1.1024
+save model iter: 10200
+iter: 10300 ----> train_loss: 1.0306 ---- train_accuracy: 0.8647 ---- tran_aux_loss: 0.8805
+test_auc: 0.8202 ----test_loss: 1.2307 ---- test_accuracy: 0.7425 ---- test_aux_loss: 1.1145
+save model iter: 10300
+iter: 10400 ----> train_loss: 1.0293 ---- train_accuracy: 0.8688 ---- tran_aux_loss: 0.8787
+test_auc: 0.8194 ----test_loss: 1.2218 ---- test_accuracy: 0.7379 ---- test_aux_loss: 1.0834
+save model iter: 10400
+iter: 10500 ----> train_loss: 1.0187 ---- train_accuracy: 0.8788 ---- tran_aux_loss: 0.8785
+test_auc: 0.8178 ----test_loss: 1.2249 ---- test_accuracy: 0.7384 ---- test_aux_loss: 1.0825
+save model iter: 10500
+iter: 10600 ----> train_loss: 1.0311 ---- train_accuracy: 0.8761 ---- tran_aux_loss: 0.8866
+test_auc: 0.8203 ----test_loss: 1.2225 ---- test_accuracy: 0.7386 ---- test_aux_loss: 1.0983
+save model iter: 10600
+iter: 10700 ----> train_loss: 1.0226 ---- train_accuracy: 0.8820 ---- tran_aux_loss: 0.8856
+test_auc: 0.8201 ----test_loss: 1.2299 ---- test_accuracy: 0.7416 ---- test_aux_loss: 1.1226
+save model iter: 10700
+iter: 10800 ----> train_loss: 1.0232 ---- train_accuracy: 0.8828 ---- tran_aux_loss: 0.8886
+test_auc: 0.8221 ----test_loss: 1.2209 ---- test_accuracy: 0.7424 ---- test_aux_loss: 1.1112
+save model iter: 10800
+iter: 10900 ----> train_loss: 1.0205 ---- train_accuracy: 0.8756 ---- tran_aux_loss: 0.8793
+test_auc: 0.8225 ----test_loss: 1.2111 ---- test_accuracy: 0.7452 ---- test_aux_loss: 1.0904
+save model iter: 10900
+iter: 11000 ----> train_loss: 1.0110 ---- train_accuracy: 0.8841 ---- tran_aux_loss: 0.8783
+test_auc: 0.8255 ----test_loss: 1.2178 ---- test_accuracy: 0.7483 ---- test_aux_loss: 1.0669
+save model iter: 11000
+iter: 11100 ----> train_loss: 1.0097 ---- train_accuracy: 0.8895 ---- tran_aux_loss: 0.8824
+test_auc: 0.8257 ----test_loss: 1.2218 ---- test_accuracy: 0.7478 ---- test_aux_loss: 1.0949
+save model iter: 11100
+iter: 11200 ----> train_loss: 1.0158 ---- train_accuracy: 0.8895 ---- tran_aux_loss: 0.8871
+test_auc: 0.8238 ----test_loss: 1.2257 ---- test_accuracy: 0.7467 ---- test_aux_loss: 1.0891
+save model iter: 11200
+iter: 11300 ----> train_loss: 1.0104 ---- train_accuracy: 0.8828 ---- tran_aux_loss: 0.8748
+test_auc: 0.8284 ----test_loss: 1.2004 ---- test_accuracy: 0.7486 ---- test_aux_loss: 1.0933
+save model iter: 11300
+iter: 11400 ----> train_loss: 1.0119 ---- train_accuracy: 0.8830 ---- tran_aux_loss: 0.8783
+test_auc: 0.8281 ----test_loss: 1.2040 ---- test_accuracy: 0.7480 ---- test_aux_loss: 1.1126
+save model iter: 11400
+iter: 11500 ----> train_loss: 1.0005 ---- train_accuracy: 0.8905 ---- tran_aux_loss: 0.8735
+test_auc: 0.8285 ----test_loss: 1.2183 ---- test_accuracy: 0.7467 ---- test_aux_loss: 1.0515
+save model iter: 11500
+iter: 11600 ----> train_loss: 0.9853 ---- train_accuracy: 0.8918 ---- tran_aux_loss: 0.8611
+test_auc: 0.8280 ----test_loss: 1.2194 ---- test_accuracy: 0.7508 ---- test_aux_loss: 1.0526
+save model iter: 11600
+iter: 11700 ----> train_loss: 0.9892 ---- train_accuracy: 0.9002 ---- tran_aux_loss: 0.8723
+test_auc: 0.8271 ----test_loss: 1.2275 ---- test_accuracy: 0.7459 ---- test_aux_loss: 1.1001
+save model iter: 11700
+iter: 11800 ----> train_loss: 0.9937 ---- train_accuracy: 0.8985 ---- tran_aux_loss: 0.8719
+test_auc: 0.8278 ----test_loss: 1.2036 ---- test_accuracy: 0.7507 ---- test_aux_loss: 1.1339
+save model iter: 11800
+iter: 11900 ----> train_loss: 0.9861 ---- train_accuracy: 0.8966 ---- tran_aux_loss: 0.8657
+test_auc: 0.8247 ----test_loss: 1.2171 ---- test_accuracy: 0.7452 ---- test_aux_loss: 1.0831
+save model iter: 11900
+iter: 12000 ----> train_loss: 0.9791 ---- train_accuracy: 0.9038 ---- tran_aux_loss: 0.8638
+test_auc: 0.8216 ----test_loss: 1.2307 ---- test_accuracy: 0.7422 ---- test_aux_loss: 1.0807
+save model iter: 12000
+iter: 12100 ----> train_loss: 0.9685 ---- train_accuracy: 0.9031 ---- tran_aux_loss: 0.8569
+test_auc: 0.8231 ----test_loss: 1.2341 ---- test_accuracy: 0.7442 ---- test_aux_loss: 1.1102
+save model iter: 12100
+iter: 12200 ----> train_loss: 0.9604 ---- train_accuracy: 0.9050 ---- tran_aux_loss: 0.8487
+test_auc: 0.8246 ----test_loss: 1.2388 ---- test_accuracy: 0.7454 ---- test_aux_loss: 1.0931
+save model iter: 12200
+iter: 12300 ----> train_loss: 0.9718 ---- train_accuracy: 0.9043 ---- tran_aux_loss: 0.8586
+test_auc: 0.8271 ----test_loss: 1.2169 ---- test_accuracy: 0.7466 ---- test_aux_loss: 1.1443
+save model iter: 12300
+iter: 12400 ----> train_loss: 0.9639 ---- train_accuracy: 0.9095 ---- tran_aux_loss: 0.8587
+test_auc: 0.8282 ----test_loss: 1.2323 ---- test_accuracy: 0.7480 ---- test_aux_loss: 1.1090
+save model iter: 12400
+iter: 12500 ----> train_loss: 0.9628 ---- train_accuracy: 0.9113 ---- tran_aux_loss: 0.8582
+test_auc: 0.8249 ----test_loss: 1.2304 ---- test_accuracy: 0.7472 ---- test_aux_loss: 1.0709
+save model iter: 12500
+iter: 12600 ----> train_loss: 0.9658 ---- train_accuracy: 0.9080 ---- tran_aux_loss: 0.8571
+test_auc: 0.8287 ----test_loss: 1.2178 ---- test_accuracy: 0.7520 ---- test_aux_loss: 1.1317
+save model iter: 12600
+iter: 12700 ----> train_loss: 0.9551 ---- train_accuracy: 0.9127 ---- tran_aux_loss: 0.8506
+test_auc: 0.8322 ----test_loss: 1.2232 ---- test_accuracy: 0.7547 ---- test_aux_loss: 1.1279
+save model iter: 12700
+iter: 12800 ----> train_loss: 0.9497 ---- train_accuracy: 0.9149 ---- tran_aux_loss: 0.8476
+test_auc: 0.8285 ----test_loss: 1.2405 ---- test_accuracy: 0.7502 ---- test_aux_loss: 1.1149
+save model iter: 12800
+iter: 12900 ----> train_loss: 0.9592 ---- train_accuracy: 0.9143 ---- tran_aux_loss: 0.8598
+test_auc: 0.8292 ----test_loss: 1.2354 ---- test_accuracy: 0.7518 ---- test_aux_loss: 1.1488
+save model iter: 12900
+iter: 13000 ----> train_loss: 0.9364 ---- train_accuracy: 0.9213 ---- tran_aux_loss: 0.8423
+test_auc: 0.8354 ----test_loss: 1.2217 ---- test_accuracy: 0.7568 ---- test_aux_loss: 1.1040
+save model iter: 13000
+iter: 13100 ----> train_loss: 0.9541 ---- train_accuracy: 0.9136 ---- tran_aux_loss: 0.8541
+test_auc: 0.8330 ----test_loss: 1.2143 ---- test_accuracy: 0.7557 ---- test_aux_loss: 1.0986
+save model iter: 13100
+iter: 13200 ----> train_loss: 0.9432 ---- train_accuracy: 0.9144 ---- tran_aux_loss: 0.8428
+test_auc: 0.8312 ----test_loss: 1.2242 ---- test_accuracy: 0.7542 ---- test_aux_loss: 1.1405
+save model iter: 13200
+iter: 13300 ----> train_loss: 0.9555 ---- train_accuracy: 0.9160 ---- tran_aux_loss: 0.8549
+test_auc: 0.8287 ----test_loss: 1.2345 ---- test_accuracy: 0.7543 ---- test_aux_loss: 1.0612
+save model iter: 13300
+iter: 13400 ----> train_loss: 0.9405 ---- train_accuracy: 0.9189 ---- tran_aux_loss: 0.8435
+test_auc: 0.8299 ----test_loss: 1.2336 ---- test_accuracy: 0.7530 ---- test_aux_loss: 1.1210
+save model iter: 13400
+iter: 13500 ----> train_loss: 0.9314 ---- train_accuracy: 0.9203 ---- tran_aux_loss: 0.8390
+test_auc: 0.8359 ----test_loss: 1.2454 ---- test_accuracy: 0.7578 ---- test_aux_loss: 1.0747
+save model iter: 13500
+iter: 13600 ----> train_loss: 0.9334 ---- train_accuracy: 0.9198 ---- tran_aux_loss: 0.8389
+test_auc: 0.8289 ----test_loss: 1.2516 ---- test_accuracy: 0.7533 ---- test_aux_loss: 1.0918
+save model iter: 13600
+iter: 13700 ----> train_loss: 0.9335 ---- train_accuracy: 0.9176 ---- tran_aux_loss: 0.8395
+test_auc: 0.8356 ----test_loss: 1.2480 ---- test_accuracy: 0.7593 ---- test_aux_loss: 1.0920
+save model iter: 13700
+iter: 13800 ----> train_loss: 0.9358 ---- train_accuracy: 0.9218 ---- tran_aux_loss: 0.8443
+test_auc: 0.8345 ----test_loss: 1.2419 ---- test_accuracy: 0.7592 ---- test_aux_loss: 1.1073
+save model iter: 13800
+iter: 13900 ----> train_loss: 0.9242 ---- train_accuracy: 0.9279 ---- tran_aux_loss: 0.8396
+test_auc: 0.8362 ----test_loss: 1.2491 ---- test_accuracy: 0.7602 ---- test_aux_loss: 1.1413
+save model iter: 13900
+iter: 14000 ----> train_loss: 0.9239 ---- train_accuracy: 0.9256 ---- tran_aux_loss: 0.8340
+test_auc: 0.8369 ----test_loss: 1.2489 ---- test_accuracy: 0.7608 ---- test_aux_loss: 1.0718
+save model iter: 14000
+iter: 14100 ----> train_loss: 0.9281 ---- train_accuracy: 0.9245 ---- tran_aux_loss: 0.8361
+test_auc: 0.8369 ----test_loss: 1.2347 ---- test_accuracy: 0.7601 ---- test_aux_loss: 1.0741
+save model iter: 14100
+iter: 14200 ----> train_loss: 0.9198 ---- train_accuracy: 0.9300 ---- tran_aux_loss: 0.8361
+test_auc: 0.8372 ----test_loss: 1.2636 ---- test_accuracy: 0.7610 ---- test_aux_loss: 1.0763
+save model iter: 14200
+iter: 14300 ----> train_loss: 0.9224 ---- train_accuracy: 0.9295 ---- tran_aux_loss: 0.8414
+test_auc: 0.8372 ----test_loss: 1.2447 ---- test_accuracy: 0.7610 ---- test_aux_loss: 1.0896
+save model iter: 14300
+iter: 14400 ----> train_loss: 0.9236 ---- train_accuracy: 0.9275 ---- tran_aux_loss: 0.8352
+test_auc: 0.8383 ----test_loss: 1.2477 ---- test_accuracy: 0.7589 ---- test_aux_loss: 1.1038
+save model iter: 14400
+iter: 14500 ----> train_loss: 0.9186 ---- train_accuracy: 0.9286 ---- tran_aux_loss: 0.8346
+test_auc: 0.8378 ----test_loss: 1.2582 ---- test_accuracy: 0.7596 ---- test_aux_loss: 1.0471
+save model iter: 14500
+iter: 14600 ----> train_loss: 0.9183 ---- train_accuracy: 0.9249 ---- tran_aux_loss: 0.8328
+test_auc: 0.8379 ----test_loss: 1.2715 ---- test_accuracy: 0.7615 ---- test_aux_loss: 1.1135
+save model iter: 14600
+iter: 14700 ----> train_loss: 0.9039 ---- train_accuracy: 0.9310 ---- tran_aux_loss: 0.8230
+test_auc: 0.8434 ----test_loss: 1.2504 ---- test_accuracy: 0.7660 ---- test_aux_loss: 1.1062
+save model iter: 14700
+iter: 14800 ----> train_loss: 0.9213 ---- train_accuracy: 0.9235 ---- tran_aux_loss: 0.8343
+test_auc: 0.8416 ----test_loss: 1.2481 ---- test_accuracy: 0.7624 ---- test_aux_loss: 1.0458
+save model iter: 14800
+iter: 14900 ----> train_loss: 0.9133 ---- train_accuracy: 0.9266 ---- tran_aux_loss: 0.8281
+test_auc: 0.8407 ----test_loss: 1.2568 ---- test_accuracy: 0.7637 ---- test_aux_loss: 1.0874
+save model iter: 14900
+iter: 15000 ----> train_loss: 0.9058 ---- train_accuracy: 0.9338 ---- tran_aux_loss: 0.8261
+test_auc: 0.8387 ----test_loss: 1.2711 ---- test_accuracy: 0.7614 ---- test_aux_loss: 1.0880
+save model iter: 15000
+iter: 15100 ----> train_loss: 0.9086 ---- train_accuracy: 0.9295 ---- tran_aux_loss: 0.8271
+test_auc: 0.8398 ----test_loss: 1.2703 ---- test_accuracy: 0.7619 ---- test_aux_loss: 1.1157
+save model iter: 15100
+iter: 15200 ----> train_loss: 0.8990 ---- train_accuracy: 0.9308 ---- tran_aux_loss: 0.8162
+test_auc: 0.8396 ----test_loss: 1.2632 ---- test_accuracy: 0.7648 ---- test_aux_loss: 1.0722
+save model iter: 15200
+iter: 15300 ----> train_loss: 0.8921 ---- train_accuracy: 0.9373 ---- tran_aux_loss: 0.8162
+test_auc: 0.8387 ----test_loss: 1.2731 ---- test_accuracy: 0.7625 ---- test_aux_loss: 1.0631
+save model iter: 15300
+iter: 15400 ----> train_loss: 0.8842 ---- train_accuracy: 0.9373 ---- tran_aux_loss: 0.8084
+test_auc: 0.8387 ----test_loss: 1.2800 ---- test_accuracy: 0.7630 ---- test_aux_loss: 1.0866
+save model iter: 15400
+iter: 15500 ----> train_loss: 0.8992 ---- train_accuracy: 0.9348 ---- tran_aux_loss: 0.8226
+test_auc: 0.8379 ----test_loss: 1.2815 ---- test_accuracy: 0.7645 ---- test_aux_loss: 1.0835
+save model iter: 15500
+iter: 15600 ----> train_loss: 0.8873 ---- train_accuracy: 0.9408 ---- tran_aux_loss: 0.8154
+test_auc: 0.8384 ----test_loss: 1.2904 ---- test_accuracy: 0.7652 ---- test_aux_loss: 1.0460
+save model iter: 15600
+iter: 15700 ----> train_loss: 0.8995 ---- train_accuracy: 0.9312 ---- tran_aux_loss: 0.8189
+test_auc: 0.8379 ----test_loss: 1.2897 ---- test_accuracy: 0.7656 ---- test_aux_loss: 1.1076
+save model iter: 15700
+iter: 15800 ----> train_loss: 0.8933 ---- train_accuracy: 0.9351 ---- tran_aux_loss: 0.8166
+test_auc: 0.8396 ----test_loss: 1.2903 ---- test_accuracy: 0.7645 ---- test_aux_loss: 1.0671
+save model iter: 15800
+iter: 15900 ----> train_loss: 0.8805 ---- train_accuracy: 0.9404 ---- tran_aux_loss: 0.8096
+test_auc: 0.8410 ----test_loss: 1.3108 ---- test_accuracy: 0.7649 ---- test_aux_loss: 1.0889
+save model iter: 15900
+iter: 16000 ----> train_loss: 0.8831 ---- train_accuracy: 0.9357 ---- tran_aux_loss: 0.8081
+test_auc: 0.8414 ----test_loss: 1.3004 ---- test_accuracy: 0.7663 ---- test_aux_loss: 1.1289
+save model iter: 16000
+iter: 16100 ----> train_loss: 0.8947 ---- train_accuracy: 0.9373 ---- tran_aux_loss: 0.8202
+test_auc: 0.8438 ----test_loss: 1.2804 ---- test_accuracy: 0.7692 ---- test_aux_loss: 1.0794
+save model iter: 16100
+iter: 16200 ----> train_loss: 0.8787 ---- train_accuracy: 0.9396 ---- tran_aux_loss: 0.8091
+test_auc: 0.8447 ----test_loss: 1.3026 ---- test_accuracy: 0.7691 ---- test_aux_loss: 1.1025
+save model iter: 16200
+iter: 16300 ----> train_loss: 0.8803 ---- train_accuracy: 0.9398 ---- tran_aux_loss: 0.8064
+test_auc: 0.8447 ----test_loss: 1.2886 ---- test_accuracy: 0.7685 ---- test_aux_loss: 1.0939
+save model iter: 16300
+iter: 16400 ----> train_loss: 0.8782 ---- train_accuracy: 0.9345 ---- tran_aux_loss: 0.8060
+test_auc: 0.8438 ----test_loss: 1.2931 ---- test_accuracy: 0.7678 ---- test_aux_loss: 1.1226
+save model iter: 16400
+iter: 16500 ----> train_loss: 0.8855 ---- train_accuracy: 0.9320 ---- tran_aux_loss: 0.8087
+test_auc: 0.8407 ----test_loss: 1.3020 ---- test_accuracy: 0.7643 ---- test_aux_loss: 1.0873
+save model iter: 16500
+iter: 16600 ----> train_loss: 0.8850 ---- train_accuracy: 0.9404 ---- tran_aux_loss: 0.8132
+test_auc: 0.8447 ----test_loss: 1.3085 ---- test_accuracy: 0.7690 ---- test_aux_loss: 1.1318
+save model iter: 16600
+iter: 16700 ----> train_loss: 0.8757 ---- train_accuracy: 0.9409 ---- tran_aux_loss: 0.8074
+test_auc: 0.8424 ----test_loss: 1.3094 ---- test_accuracy: 0.7683 ---- test_aux_loss: 1.0758
+save model iter: 16700
+iter: 16800 ----> train_loss: 0.8708 ---- train_accuracy: 0.9445 ---- tran_aux_loss: 0.8034
+test_auc: 0.8454 ----test_loss: 1.3068 ---- test_accuracy: 0.7685 ---- test_aux_loss: 1.0989
+save model iter: 16800
+iter: 16900 ----> train_loss: 0.8694 ---- train_accuracy: 0.9435 ---- tran_aux_loss: 0.8038
+test_auc: 0.8451 ----test_loss: 1.2922 ---- test_accuracy: 0.7683 ---- test_aux_loss: 1.0721
+save model iter: 16900
+iter: 17000 ----> train_loss: 0.2597 ---- train_accuracy: 0.2523 ---- tran_aux_loss: 0.2270
+test_auc: 0.8428 ----test_loss: 1.2113 ---- test_accuracy: 0.7664 ---- test_aux_loss: 1.0629
+save model iter: 17000
+iter: 17100 ----> train_loss: 0.9419 ---- train_accuracy: 0.9055 ---- tran_aux_loss: 0.8318
+test_auc: 0.8447 ----test_loss: 1.2120 ---- test_accuracy: 0.7673 ---- test_aux_loss: 1.0381
+save model iter: 17100
+iter: 17200 ----> train_loss: 0.9387 ---- train_accuracy: 0.9029 ---- tran_aux_loss: 0.8258
+test_auc: 0.8376 ----test_loss: 1.2258 ---- test_accuracy: 0.7592 ---- test_aux_loss: 1.0334
+save model iter: 17200
+iter: 17300 ----> train_loss: 0.9245 ---- train_accuracy: 0.9128 ---- tran_aux_loss: 0.8158
+test_auc: 0.8267 ----test_loss: 1.2719 ---- test_accuracy: 0.7482 ---- test_aux_loss: 1.0857
+save model iter: 17300
+iter: 17400 ----> train_loss: 0.9108 ---- train_accuracy: 0.9234 ---- tran_aux_loss: 0.8126
+test_auc: 0.8259 ----test_loss: 1.2994 ---- test_accuracy: 0.7473 ---- test_aux_loss: 1.0985
+save model iter: 17400
+iter: 17500 ----> train_loss: 0.8959 ---- train_accuracy: 0.9280 ---- tran_aux_loss: 0.8047
+test_auc: 0.8220 ----test_loss: 1.3249 ---- test_accuracy: 0.7456 ---- test_aux_loss: 1.1111
+save model iter: 17500
+iter: 17600 ----> train_loss: 0.8857 ---- train_accuracy: 0.9257 ---- tran_aux_loss: 0.7935
+test_auc: 0.8213 ----test_loss: 1.2968 ---- test_accuracy: 0.7441 ---- test_aux_loss: 1.0637
+save model iter: 17600
+iter: 17700 ----> train_loss: 0.8874 ---- train_accuracy: 0.9247 ---- tran_aux_loss: 0.7942
+test_auc: 0.8220 ----test_loss: 1.3017 ---- test_accuracy: 0.7444 ---- test_aux_loss: 1.0702
+save model iter: 17700
+iter: 17800 ----> train_loss: 0.8973 ---- train_accuracy: 0.9270 ---- tran_aux_loss: 0.8073
+test_auc: 0.8266 ----test_loss: 1.2943 ---- test_accuracy: 0.7472 ---- test_aux_loss: 1.1429
+save model iter: 17800
+iter: 17900 ----> train_loss: 0.8909 ---- train_accuracy: 0.9301 ---- tran_aux_loss: 0.8041
+test_auc: 0.8266 ----test_loss: 1.2930 ---- test_accuracy: 0.7459 ---- test_aux_loss: 1.1099
+save model iter: 17900
+iter: 18000 ----> train_loss: 0.8771 ---- train_accuracy: 0.9348 ---- tran_aux_loss: 0.7935
+test_auc: 0.8289 ----test_loss: 1.2922 ---- test_accuracy: 0.7487 ---- test_aux_loss: 1.1010
+save model iter: 18000
+iter: 18100 ----> train_loss: 0.8830 ---- train_accuracy: 0.9371 ---- tran_aux_loss: 0.8038
+test_auc: 0.8278 ----test_loss: 1.2877 ---- test_accuracy: 0.7477 ---- test_aux_loss: 1.1194
+save model iter: 18100
+iter: 18200 ----> train_loss: 0.8886 ---- train_accuracy: 0.9418 ---- tran_aux_loss: 0.8140
+test_auc: 0.8272 ----test_loss: 1.2973 ---- test_accuracy: 0.7475 ---- test_aux_loss: 1.0627
+save model iter: 18200
+iter: 18300 ----> train_loss: 0.8743 ---- train_accuracy: 0.9462 ---- tran_aux_loss: 0.8045
+test_auc: 0.8266 ----test_loss: 1.2960 ---- test_accuracy: 0.7472 ---- test_aux_loss: 1.0999
+save model iter: 18300
+iter: 18400 ----> train_loss: 0.8685 ---- train_accuracy: 0.9500 ---- tran_aux_loss: 0.8044
+test_auc: 0.8260 ----test_loss: 1.3176 ---- test_accuracy: 0.7467 ---- test_aux_loss: 1.0592
+save model iter: 18400
+iter: 18500 ----> train_loss: 0.8589 ---- train_accuracy: 0.9543 ---- tran_aux_loss: 0.7998
+test_auc: 0.8253 ----test_loss: 1.3268 ---- test_accuracy: 0.7464 ---- test_aux_loss: 1.1240
+save model iter: 18500
+iter: 18600 ----> train_loss: 0.8469 ---- train_accuracy: 0.9539 ---- tran_aux_loss: 0.7895
+test_auc: 0.8245 ----test_loss: 1.3463 ---- test_accuracy: 0.7448 ---- test_aux_loss: 1.0748
+save model iter: 18600
+iter: 18700 ----> train_loss: 0.8537 ---- train_accuracy: 0.9519 ---- tran_aux_loss: 0.7931
+test_auc: 0.8297 ----test_loss: 1.3261 ---- test_accuracy: 0.7503 ---- test_aux_loss: 1.0704
+save model iter: 18700
+iter: 18800 ----> train_loss: 0.8456 ---- train_accuracy: 0.9519 ---- tran_aux_loss: 0.7860
+test_auc: 0.8307 ----test_loss: 1.3275 ---- test_accuracy: 0.7519 ---- test_aux_loss: 1.1428
+save model iter: 18800
+iter: 18900 ----> train_loss: 0.8457 ---- train_accuracy: 0.9587 ---- tran_aux_loss: 0.7931
+test_auc: 0.8311 ----test_loss: 1.3223 ---- test_accuracy: 0.7506 ---- test_aux_loss: 1.1317
+save model iter: 18900
+iter: 19000 ----> train_loss: 0.8374 ---- train_accuracy: 0.9622 ---- tran_aux_loss: 0.7896
+test_auc: 0.8315 ----test_loss: 1.3370 ---- test_accuracy: 0.7519 ---- test_aux_loss: 1.0440
+save model iter: 19000
+iter: 19100 ----> train_loss: 0.8532 ---- train_accuracy: 0.9605 ---- tran_aux_loss: 0.8026
+test_auc: 0.8363 ----test_loss: 1.3174 ---- test_accuracy: 0.7564 ---- test_aux_loss: 1.0981
+save model iter: 19100
+iter: 19200 ----> train_loss: 0.8513 ---- train_accuracy: 0.9654 ---- tran_aux_loss: 0.8062
+test_auc: 0.8342 ----test_loss: 1.3566 ---- test_accuracy: 0.7543 ---- test_aux_loss: 1.0734
+save model iter: 19200
+iter: 19300 ----> train_loss: 0.8463 ---- train_accuracy: 0.9621 ---- tran_aux_loss: 0.7996
+test_auc: 0.8353 ----test_loss: 1.3209 ---- test_accuracy: 0.7534 ---- test_aux_loss: 1.0762
+save model iter: 19300
+iter: 19400 ----> train_loss: 0.8418 ---- train_accuracy: 0.9633 ---- tran_aux_loss: 0.7946
+test_auc: 0.8377 ----test_loss: 1.3298 ---- test_accuracy: 0.7573 ---- test_aux_loss: 1.1141
+save model iter: 19400
+iter: 19500 ----> train_loss: 0.8288 ---- train_accuracy: 0.9680 ---- tran_aux_loss: 0.7874
+test_auc: 0.8389 ----test_loss: 1.3467 ---- test_accuracy: 0.7593 ---- test_aux_loss: 1.0923
+save model iter: 19500
+iter: 19600 ----> train_loss: 0.8326 ---- train_accuracy: 0.9726 ---- tran_aux_loss: 0.7956
+test_auc: 0.8407 ----test_loss: 1.3368 ---- test_accuracy: 0.7616 ---- test_aux_loss: 1.0924
+save model iter: 19600
+iter: 19700 ----> train_loss: 0.8348 ---- train_accuracy: 0.9674 ---- tran_aux_loss: 0.7946
+test_auc: 0.8351 ----test_loss: 1.3533 ---- test_accuracy: 0.7559 ---- test_aux_loss: 1.0985
+save model iter: 19700
+iter: 19800 ----> train_loss: 0.8340 ---- train_accuracy: 0.9694 ---- tran_aux_loss: 0.7950
+test_auc: 0.8368 ----test_loss: 1.3499 ---- test_accuracy: 0.7570 ---- test_aux_loss: 1.1268
+save model iter: 19800
+iter: 19900 ----> train_loss: 0.8341 ---- train_accuracy: 0.9712 ---- tran_aux_loss: 0.7969
+test_auc: 0.8384 ----test_loss: 1.3529 ---- test_accuracy: 0.7594 ---- test_aux_loss: 1.1078
+save model iter: 19900
+iter: 20000 ----> train_loss: 0.8254 ---- train_accuracy: 0.9731 ---- tran_aux_loss: 0.7896
+test_auc: 0.8394 ----test_loss: 1.3525 ---- test_accuracy: 0.7593 ---- test_aux_loss: 1.0969
+save model iter: 20000
+iter: 20100 ----> train_loss: 0.8165 ---- train_accuracy: 0.9716 ---- tran_aux_loss: 0.7793
+test_auc: 0.8402 ----test_loss: 1.3549 ---- test_accuracy: 0.7597 ---- test_aux_loss: 1.0790
+save model iter: 20100
+iter: 20200 ----> train_loss: 0.8229 ---- train_accuracy: 0.9752 ---- tran_aux_loss: 0.7901
+test_auc: 0.8409 ----test_loss: 1.3744 ---- test_accuracy: 0.7611 ---- test_aux_loss: 1.0561
+save model iter: 20200
+iter: 20300 ----> train_loss: 0.8277 ---- train_accuracy: 0.9712 ---- tran_aux_loss: 0.7927
+test_auc: 0.8409 ----test_loss: 1.3453 ---- test_accuracy: 0.7634 ---- test_aux_loss: 1.0659
+save model iter: 20300
+iter: 20400 ----> train_loss: 0.8127 ---- train_accuracy: 0.9785 ---- tran_aux_loss: 0.7839
+test_auc: 0.8381 ----test_loss: 1.3828 ---- test_accuracy: 0.7591 ---- test_aux_loss: 1.0987
+save model iter: 20400
+iter: 20500 ----> train_loss: 0.8107 ---- train_accuracy: 0.9813 ---- tran_aux_loss: 0.7855
+test_auc: 0.8374 ----test_loss: 1.3857 ---- test_accuracy: 0.7574 ---- test_aux_loss: 1.1232
+save model iter: 20500
+iter: 20600 ----> train_loss: 0.8152 ---- train_accuracy: 0.9775 ---- tran_aux_loss: 0.7856
+test_auc: 0.8378 ----test_loss: 1.3875 ---- test_accuracy: 0.7585 ---- test_aux_loss: 1.1565
+save model iter: 20600
+iter: 20700 ----> train_loss: 0.8054 ---- train_accuracy: 0.9770 ---- tran_aux_loss: 0.7756
+test_auc: 0.8363 ----test_loss: 1.3935 ---- test_accuracy: 0.7566 ---- test_aux_loss: 1.0973
+save model iter: 20700
+iter: 20800 ----> train_loss: 0.8023 ---- train_accuracy: 0.9789 ---- tran_aux_loss: 0.7742
+test_auc: 0.8388 ----test_loss: 1.3842 ---- test_accuracy: 0.7595 ---- test_aux_loss: 1.0924
+save model iter: 20800
+iter: 20900 ----> train_loss: 0.8044 ---- train_accuracy: 0.9803 ---- tran_aux_loss: 0.7786
+test_auc: 0.8399 ----test_loss: 1.4029 ---- test_accuracy: 0.7602 ---- test_aux_loss: 1.1547
+save model iter: 20900
+iter: 21000 ----> train_loss: 0.8132 ---- train_accuracy: 0.9809 ---- tran_aux_loss: 0.7876
+test_auc: 0.8388 ----test_loss: 1.4113 ---- test_accuracy: 0.7575 ---- test_aux_loss: 1.1018
+save model iter: 21000
+iter: 21100 ----> train_loss: 0.8038 ---- train_accuracy: 0.9805 ---- tran_aux_loss: 0.7789
+test_auc: 0.8376 ----test_loss: 1.4055 ---- test_accuracy: 0.7588 ---- test_aux_loss: 1.1145
+save model iter: 21100
+iter: 21200 ----> train_loss: 0.7979 ---- train_accuracy: 0.9820 ---- tran_aux_loss: 0.7741
+test_auc: 0.8397 ----test_loss: 1.4266 ---- test_accuracy: 0.7601 ---- test_aux_loss: 1.0890
+save model iter: 21200
+iter: 21300 ----> train_loss: 0.7994 ---- train_accuracy: 0.9802 ---- tran_aux_loss: 0.7763
+test_auc: 0.8381 ----test_loss: 1.4297 ---- test_accuracy: 0.7577 ---- test_aux_loss: 1.0896
+save model iter: 21300
+iter: 21400 ----> train_loss: 0.7961 ---- train_accuracy: 0.9824 ---- tran_aux_loss: 0.7736
+test_auc: 0.8385 ----test_loss: 1.4112 ---- test_accuracy: 0.7604 ---- test_aux_loss: 1.0543
+save model iter: 21400
+iter: 21500 ----> train_loss: 0.7899 ---- train_accuracy: 0.9831 ---- tran_aux_loss: 0.7666
+test_auc: 0.8399 ----test_loss: 1.4162 ---- test_accuracy: 0.7625 ---- test_aux_loss: 1.0977
+save model iter: 21500
+iter: 21600 ----> train_loss: 0.8017 ---- train_accuracy: 0.9816 ---- tran_aux_loss: 0.7772
+test_auc: 0.8395 ----test_loss: 1.4067 ---- test_accuracy: 0.7614 ---- test_aux_loss: 1.1241
+save model iter: 21600
+iter: 21700 ----> train_loss: 0.7859 ---- train_accuracy: 0.9828 ---- tran_aux_loss: 0.7628
+test_auc: 0.8399 ----test_loss: 1.4018 ---- test_accuracy: 0.7599 ---- test_aux_loss: 1.1032
+save model iter: 21700
+iter: 21800 ----> train_loss: 0.7930 ---- train_accuracy: 0.9834 ---- tran_aux_loss: 0.7699
+test_auc: 0.8397 ----test_loss: 1.4149 ---- test_accuracy: 0.7615 ---- test_aux_loss: 1.1194
+save model iter: 21800
+iter: 21900 ----> train_loss: 0.7935 ---- train_accuracy: 0.9817 ---- tran_aux_loss: 0.7698
+test_auc: 0.8375 ----test_loss: 1.4132 ---- test_accuracy: 0.7578 ---- test_aux_loss: 1.0800
+save model iter: 21900
+iter: 22000 ----> train_loss: 0.7812 ---- train_accuracy: 0.9820 ---- tran_aux_loss: 0.7576
+test_auc: 0.8408 ----test_loss: 1.4122 ---- test_accuracy: 0.7618 ---- test_aux_loss: 1.1318
+save model iter: 22000
+iter: 22100 ----> train_loss: 0.7872 ---- train_accuracy: 0.9830 ---- tran_aux_loss: 0.7652
+test_auc: 0.8404 ----test_loss: 1.4366 ---- test_accuracy: 0.7605 ---- test_aux_loss: 1.1057
+save model iter: 22100
+iter: 22200 ----> train_loss: 0.7866 ---- train_accuracy: 0.9820 ---- tran_aux_loss: 0.7640
+test_auc: 0.8396 ----test_loss: 1.4157 ---- test_accuracy: 0.7598 ---- test_aux_loss: 1.0547
+save model iter: 22200
+iter: 22300 ----> train_loss: 0.7842 ---- train_accuracy: 0.9833 ---- tran_aux_loss: 0.7625
+test_auc: 0.8419 ----test_loss: 1.3984 ---- test_accuracy: 0.7632 ---- test_aux_loss: 1.0447
+save model iter: 22300
+iter: 22400 ----> train_loss: 0.7888 ---- train_accuracy: 0.9837 ---- tran_aux_loss: 0.7673
+test_auc: 0.8422 ----test_loss: 1.4158 ---- test_accuracy: 0.7637 ---- test_aux_loss: 1.0521
+save model iter: 22400
+iter: 22500 ----> train_loss: 0.7798 ---- train_accuracy: 0.9807 ---- tran_aux_loss: 0.7539
+test_auc: 0.8431 ----test_loss: 1.4014 ---- test_accuracy: 0.7646 ---- test_aux_loss: 1.0941
+save model iter: 22500
+iter: 22600 ----> train_loss: 0.7839 ---- train_accuracy: 0.9840 ---- tran_aux_loss: 0.7637
+test_auc: 0.8408 ----test_loss: 1.3969 ---- test_accuracy: 0.7635 ---- test_aux_loss: 1.0626
+save model iter: 22600
+iter: 22700 ----> train_loss: 0.7812 ---- train_accuracy: 0.9833 ---- tran_aux_loss: 0.7597
+test_auc: 0.8426 ----test_loss: 1.4125 ---- test_accuracy: 0.7648 ---- test_aux_loss: 1.0925
+save model iter: 22700
+iter: 22800 ----> train_loss: 0.7871 ---- train_accuracy: 0.9841 ---- tran_aux_loss: 0.7676
+test_auc: 0.8440 ----test_loss: 1.4063 ---- test_accuracy: 0.7650 ---- test_aux_loss: 1.1032
+save model iter: 22800
+iter: 22900 ----> train_loss: 0.7791 ---- train_accuracy: 0.9828 ---- tran_aux_loss: 0.7572
+test_auc: 0.8422 ----test_loss: 1.4050 ---- test_accuracy: 0.7626 ---- test_aux_loss: 1.1045
+save model iter: 22900
+iter: 23000 ----> train_loss: 0.7811 ---- train_accuracy: 0.9855 ---- tran_aux_loss: 0.7627
+test_auc: 0.8427 ----test_loss: 1.3973 ---- test_accuracy: 0.7641 ---- test_aux_loss: 1.1075
+save model iter: 23000
+iter: 23100 ----> train_loss: 0.7696 ---- train_accuracy: 0.9833 ---- tran_aux_loss: 0.7493
+test_auc: 0.8445 ----test_loss: 1.4249 ---- test_accuracy: 0.7653 ---- test_aux_loss: 1.0888
+save model iter: 23100
+iter: 23200 ----> train_loss: 0.7636 ---- train_accuracy: 0.9861 ---- tran_aux_loss: 0.7456
+test_auc: 0.8456 ----test_loss: 1.4130 ---- test_accuracy: 0.7659 ---- test_aux_loss: 1.1285
+save model iter: 23200
+iter: 23300 ----> train_loss: 0.7748 ---- train_accuracy: 0.9843 ---- tran_aux_loss: 0.7550
+test_auc: 0.8436 ----test_loss: 1.4128 ---- test_accuracy: 0.7633 ---- test_aux_loss: 1.0577
+save model iter: 23300
+iter: 23400 ----> train_loss: 0.7785 ---- train_accuracy: 0.9827 ---- tran_aux_loss: 0.7566
+test_auc: 0.8445 ----test_loss: 1.4071 ---- test_accuracy: 0.7671 ---- test_aux_loss: 1.0472
+save model iter: 23400
+iter: 23500 ----> train_loss: 0.7746 ---- train_accuracy: 0.9841 ---- tran_aux_loss: 0.7541
+test_auc: 0.8455 ----test_loss: 1.4002 ---- test_accuracy: 0.7674 ---- test_aux_loss: 1.0995
+save model iter: 23500
+iter: 23600 ----> train_loss: 0.7700 ---- train_accuracy: 0.9851 ---- tran_aux_loss: 0.7503
+test_auc: 0.8476 ----test_loss: 1.4080 ---- test_accuracy: 0.7673 ---- test_aux_loss: 1.0665
+save model iter: 23600
+iter: 23700 ----> train_loss: 0.7644 ---- train_accuracy: 0.9837 ---- tran_aux_loss: 0.7443
+test_auc: 0.8467 ----test_loss: 1.4023 ---- test_accuracy: 0.7676 ---- test_aux_loss: 1.1368
+save model iter: 23700
+iter: 23800 ----> train_loss: 0.7600 ---- train_accuracy: 0.9859 ---- tran_aux_loss: 0.7413
+test_auc: 0.8467 ----test_loss: 1.4054 ---- test_accuracy: 0.7674 ---- test_aux_loss: 1.0555
+save model iter: 23800
+iter: 23900 ----> train_loss: 0.7592 ---- train_accuracy: 0.9839 ---- tran_aux_loss: 0.7387
+test_auc: 0.8482 ----test_loss: 1.4129 ---- test_accuracy: 0.7695 ---- test_aux_loss: 1.1343
+save model iter: 23900
+iter: 24000 ----> train_loss: 0.7734 ---- train_accuracy: 0.9850 ---- tran_aux_loss: 0.7539
+test_auc: 0.8460 ----test_loss: 1.3940 ---- test_accuracy: 0.7681 ---- test_aux_loss: 1.1010
+save model iter: 24000
+iter: 24100 ----> train_loss: 0.7607 ---- train_accuracy: 0.9875 ---- tran_aux_loss: 0.7432
+test_auc: 0.8460 ----test_loss: 1.4004 ---- test_accuracy: 0.7687 ---- test_aux_loss: 1.0773
+save model iter: 24100
+iter: 24200 ----> train_loss: 0.7641 ---- train_accuracy: 0.9839 ---- tran_aux_loss: 0.7428
+test_auc: 0.8484 ----test_loss: 1.4092 ---- test_accuracy: 0.7698 ---- test_aux_loss: 1.0551
+save model iter: 24200
+iter: 24300 ----> train_loss: 0.7560 ---- train_accuracy: 0.9862 ---- tran_aux_loss: 0.7360
+test_auc: 0.8481 ----test_loss: 1.3924 ---- test_accuracy: 0.7693 ---- test_aux_loss: 1.1058
+save model iter: 24300
+iter: 24400 ----> train_loss: 0.7539 ---- train_accuracy: 0.9867 ---- tran_aux_loss: 0.7363
+test_auc: 0.8493 ----test_loss: 1.4114 ---- test_accuracy: 0.7717 ---- test_aux_loss: 1.0664
+save model iter: 24400
+2026-02-26 03:25:59.542712: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: dnn_save_path/ckpt_noshuffDIEN3--24500.data-00000-of-00001.tempstate17688293168835944707; No space left on device
+iter: 24500 ----> train_loss: 0.7540 ---- train_accuracy: 0.9862 ---- tran_aux_loss: 0.7357
+test_auc: 0.8486 ----test_loss: 1.4159 ---- test_accuracy: 0.7707 ---- test_aux_loss: 1.1371
+save model iter: 24500
+Traceback (most recent call last):
+  File "train.py", line 231, in <module>
+    train(model_type=sys.argv[2], seed=SEED)
+  File "train.py", line 177, in train
+    model.save(sess, model_path+"--"+str(iter))
+  File "/Users/mingming/Documents/project/python/dien/script/model.py", line 173, in save
+    saver.save(sess, save_path=path)
+  File "/Users/mingming/opt/anaconda3/envs/python2.7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1573, in save
+    {self.saver_def.filename_tensor_name: checkpoint_file})
+  File "/Users/mingming/opt/anaconda3/envs/python2.7/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/Users/mingming/opt/anaconda3/envs/python2.7/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/Users/mingming/opt/anaconda3/envs/python2.7/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/Users/mingming/opt/anaconda3/envs/python2.7/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1336, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: 
